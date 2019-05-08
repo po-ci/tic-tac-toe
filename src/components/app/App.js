@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './../../logo.svg';
 import './App.css';
 
+import Board from './../board'
+
 function App() {
   return (
     <div className="App">
@@ -12,6 +14,8 @@ function App() {
         </p>
         TIC TAC TOE
       </header>
+
+       <Board />
     </div>
   );
 }
